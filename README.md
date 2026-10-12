@@ -159,8 +159,7 @@ python evaluate.py --testset college_2 --all                  # 170 college_2 qu
 python error_analysis.py --testset dev
 python error_analysis.py --testset college_2_all
 ```
-Times are for a laptop with an Intel Core Ultra 7 155U, 32 GB RAM and an RTX 3050 (4 GB). Runs are resumable
-(re-running skips finished questions). The dev sample is drawn with seed 42. Even at temperature 0, LLM outputs
+Runs are resumable (re-running skips finished questions). The dev sample is drawn with seed 42. Even at temperature 0, LLM outputs
 can differ slightly between runs and machines (GPU/CPU floating-point order); in two runs of the unchanged
 LLM + RAG baseline the dev accuracy moved by 1 point (69.5 → 68.5). Results are written to
 `results/<testset>/` (`predictions.csv`, `summary.md`, charts, `leakage_check.json`).
