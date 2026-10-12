@@ -1,0 +1,19 @@
+# Exact versions used for the published results (Python 3.13).
+# Install PyTorch (CPU build) first:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+spacy==3.8.16
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+nltk==3.10.3
+rapidfuzz==3.14.6
+networkx==3.6.1
+sqlglot==30.22.0
+sqlparse==0.6.0          # needed by the official Spider evaluation scripts
+sentence-transformers==6.1.0
+faiss-cpu==1.15.1
+gradio==6.30.0
+pandas==3.0.6
+tabulate==0.10.0
+matplotlib==3.11.2
+ollama==0.6.3
+truststore==0.10.4       # use the OS certificate store for HTTPS (networks that inspect HTTPS traffic)

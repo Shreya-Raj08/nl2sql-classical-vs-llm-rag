@@ -1,0 +1,5 @@
+| system | n | EX_all | EX_easy | EX_medium | EX_hard | EX_extra | table_P | table_R | table_F1 | avg_seconds | errors | self_corrections |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S1: Classical NLP | 1034 | 26.1 | 46.4 | 26.0 | 11.5 | 11.4 | 0.872 | 0.944 | 0.885 | 0.02 | 0 | 0 |
+
+Schema-linking F1 of the classical NLP front-end alone (keyword matching, before any SQL generation): 0.885

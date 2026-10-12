@@ -1,0 +1,9 @@
+{
+  "test_questions_checked": 1204,
+  "pool_questions": 6816,
+  "database_overlap": 0,
+  "exact_question_overlap": 0,
+  "near_duplicate_overlap_cos>=0.95": 0,
+  "status": "PASSED (zero overlap)",
+  "this_run_test_questions_checked": 200
+}

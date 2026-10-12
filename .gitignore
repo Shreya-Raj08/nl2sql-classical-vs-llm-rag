@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Data (download separately, see README) and generated indexes
+data/
+*.zip
+
+# Logs and local tool state
+*.log
+.gradio/
+flagged/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
